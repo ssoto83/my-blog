@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="EN-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My First Blog</title>
+    <link rel="stylesheet" href="./assets/css/form.css"/>
+</head>
+
+<body>
+    <button class="dark-mode">Dark Mode</button>
+    <section>
+        <div class="shape">
+            <strong>My First Blog</strong>
+                    </div>
+                      
+    </section>
+    
+    <h1>What is on your mind?</h1>
+    <div>
+        <container class="labels">
+                <label>Username</label>
+                <input type="text" placeholder="">
+
+                <label>Blog Title</label>
+                <input type="text" placeholder="">
+
+                <label>Blog Content</label>
+                <input type="text" id="content" placeholder="">
+
+            <button type="submit" class="btn btn-primary" id="submit-btn">Submit</button>
+           
+
+        </container>
+           </div>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/logic.js"></script>
+    <script>
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            window.location.href = 'blog.html';
+        });
+    </script>
+ </body>
+
+
+</html>

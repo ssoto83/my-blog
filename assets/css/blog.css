@@ -1,0 +1,29 @@
+button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: x-large;
+};
+
+body {
+    background-color: rgb(69, 241, 98);
+    color: black;
+}
+
+;
+
+
+#dark-mode {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: hsl(24, 87%, 49%);
+}
+
+.light-mode {
+    background-color: rgba(245, 114, 54, 0.555);
+
+}

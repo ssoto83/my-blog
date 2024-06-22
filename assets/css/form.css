@@ -1,0 +1,92 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Set the height of the container */
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 38px;
+    font-style: oblique;
+}
+
+.shape {
+    width: 320px;
+    /* Set the width */
+    height: 250px;
+    /* Set the height */
+    background-color: aqua;
+    /* Set the background color */
+    border-radius: 50%;
+    /* Create an oval shape */
+    display: flex;
+    /* Using Flexbox to center*/
+    justify-content: center;
+    /* Centers the text horizontally */
+    align-items: center;
+    /* Centers vertically */
+    text-align: center;
+    /* Center the text horizontally */
+
+}
+
+h1 {
+    font-style: oblique;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    /* Set the height of the body to the full viewport height */
+}
+
+.labels input {
+    font-size:xx-large;
+    display: inline-flexbox;
+    width: 300px;
+    border-style: groove;
+}
+
+/* #content {
+    display: flex;
+    width: 999px;
+    font-size: 24px;
+    /* Adjust the font size to make the content bigger */
+    line-height: 1.5;
+    /* Increase line height for better readability */
+    padding: 20px;
+    /* Add padding to increase spacing around the content */
+} */
+
+button:focus {
+    border-color:fuchsia;
+    border-radius: 40;
+
+}
+
+button {
+    font-size: 30px;
+};
+
+body {
+    padding: 25px;
+    color: black;
+    font-size: 25px;
+    background-color: rgb(169, 233, 132);
+}
+
+.dark-mode {
+   position: absolute;
+   display: flex;
+   justify-content: flex-end;
+   top: 0;
+   right: 0;
+   padding: 10px;
+   background-color: hsl(20, 2%, 67%);
+   border-radius: 5%;
+}
